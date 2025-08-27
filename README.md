@@ -36,74 +36,58 @@ No, you cannot have your Roblox account banned or terminated from using fflags, 
 </details>
 
 <details>
-  <summary><h3><strong>Sites for finding fastflags</strong></h3></summary>
-  
-- [**FVariables**](https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/roblox/FVariables.txt)  
-- [**PC Desktop Client**](https://raw.githubusercontent.com/MaximumADHD/Roblox-FFlag-Tracker/main/PCDesktopClient.json)  
-- [**PC Client Bootstrapper**](https://raw.githubusercontent.com/MaximumADHD/Roblox-FFlag-Tracker/main/PCClientBootstrapper.json)
+  <summary><h3><strong>Advanced FFlag Guide</strong></h3></summary>
 
-</details>
+<h2>Fastflag Configuration Prefixes</h2>
 
-<details>
-  <summary><h3><strong>Best Discord Bots/Apps for fastflags</strong></h3></summary>
-
-- [**Scrooms Utility**](https://discord.gg/84jKZcdQ2B)
-- [**Flemish FFlags**](https://discord.gg/UHfwyxjeya)
-
-</details>
-
-<details>
-  <summary><h3><strong>Fastflag Configuration Prefixes</strong></h3></summary>
-
-# `DFFlag`
+### `DFFlag`
 > **Dynamic Fast Flag**
 > - **Type:** Boolean (`true/false`)
 > - **Description:** A dynamic flag that can be modified during runtime. It automatically updates every 5 minutes, reflecting any changes made to it.
 
-# `FFlag`
+### `FFlag`
 > **Fast Flag**
 > - **Type:** Boolean (`true/false`)
 > - **Description:** A static flag that is initialized once and does not change throughout the session. It remains constant until a new session begins.
 
-# `FInt`
+### `FInt`
 > **Fast Integer**
 > - **Type:** Integer (`-2147483648` to `2147483647`)
 > - **Description:** A static integer that is initialized once and remains unchanged throughout the session. It only updates when a new session starts.
 
-# `DFInt`
+### `DFInt`
 > **Dynamic Fast Integer**
 > - **Type:** Integer (`-2147483648` to `2147483647`)
 > - **Description:** A dynamic integer that can be updated during runtime. It refreshes automatically every 5 minutes to reflect any changes.
 
-# `FLog`
+### `FLog`
 > **Fast Log**
 > - **Type:** Boolean (`true/false`) or Integer (`-2147483648` to `2147483647`) or Byte (`Warning, Verbose, ect`)
 > - **Description:** A static log variable that is initialized once and does not change until a new session. It remains constant until the session is reset.
 
-# `DFLog`
+### `DFLog`
 > **Dynamic Fast Log**
 > - **Type:** Boolean (`true/false`) or Integer (`-2147483648` to `2147483647`) or Byte (`Warning, Verbose, ect`)
 > - **Description:** A dynamic log variable that can change during runtime. It automatically refreshes every 5 minutes to reflect any updates made.
 
-# `FString`
+### `FString`
 > **Fast String**
 > - **Type:** String (`text`)
 > - **Description:** A static string variable that is initialized once and remains unchanged throughout the session. It does not update until a new session starts.
 
-# `DFString`
+### `DFString`
 > **Dynamic Fast String**
 > - **Type:** String (`text`)
 > - **Description:** A dynamic string that can be updated during runtime. It automatically updates every 5 minutes to reflect any changes made.
 
-# `SFFlag`
+### `SFFlag`
 > **Synchronized Fast Flag**
 > **Type:** Boolean (`true/false`) or Integer (`-2147483648` to `2147483647`)
 > **Description:** A synchronized flag variable that is loaded by the server and sent to the client. It ensures that the flag’s state is consistent across different clients. The flag's value is forced by the server and cannot be changed by the client (you).
 
-</details>
+---
 
-<details>
-  <summary><h3><strong>Flag Headers</strong></h3></summary>
+<h2>Flag Headers</h2>
 
 > 1. _IXP - Internet Exchange Point //  IP networking, allowing participant Internet service providers (ISPs) to exchange data destined for their respective networks. (not very useful)
 > 2. _Staged - Replica or a Production Enviroment (not very useful)
@@ -127,10 +111,10 @@ No, you cannot have your Roblox account banned or terminated from using fflags, 
   "DFIntConnectionMTUSize_DataCenterFilter": "1472;DataCenterID"
 }
 ```
-</details>
 
-<details>
-  <summary><h3><strong>Streaming Snake Case FFlags VS Pascal FFlags</strong></h3></summary>
+---
+
+<h2>Streaming Snake Case FFlags VS Pascal FFlags</h2>
 
 `FIntSTUDIO_ENV_CHANGE_DELAY_MS`
 
@@ -138,10 +122,9 @@ Screaming Snake Case: `ALL_WORDS_BIG_WITH_UNDERSCORES`, used for constants (thin
 
 Pascal Case (used by FFlags): `WordsStuckTogetherWithEachWordCapitalized`, used for names like classes or titles.
 
-</details>
+---
 
-<details>
-  <summary><h3><strong>Language Types</strong></h3></summary>
+<h2>Language Types</h2>
 
   ## There are three types of flag languages
 
@@ -149,10 +132,9 @@ Pascal Case (used by FFlags): `WordsStuckTogetherWithEachWordCapitalized`, used 
 
 **`C++`** and **`Lua`** takes the majority, **`UserFlag`** takes a very small portion.
 
-</details>
+---
 
-<details>
-  <summary><h3><strong>Bit Fastflags</strong></h3></summary>
+<h2>Bit Fastflags</h2>
 
 - A "bit" is how much data can be processed.
 - For example, 64 bit will process more data than a 32 bit.
@@ -169,10 +151,9 @@ Pascal Case (used by FFlags): `WordsStuckTogetherWithEachWordCapitalized`, used 
 These maximum values all can be checked with `flagstate`.
 8 bit fastflags are generally useless and have no use.
 
-</details>
+---
 
-<details>
-  <summary><h3><strong>Studio Fastflags</strong></h3></summary>
+<h2>Studio Fastflags</strong></h2>
   
   Studio fastflags do not work for general use and only work for **studio** (obviously).
 How do you know if a fastflag is studio?
@@ -180,10 +161,9 @@ How do you know if a fastflag is studio?
 "beta", "studio", "BetaEnabled", "BetaFeature", "BetaFeatureRoleSet", "BetaFeatureRolloutPercent", "BetaFeatureUrl"
 If a fastflag has these keywords, they are usually studio fastflags.
 
-</details>
+---
 
-<details>
-  <summary><h3><strong>Rendering Modes and Which are the Best?</strong></h3></summary>
+<h2>Rendering Modes and Which are the Best?</h2>
 
   These are the **rendering backends** used by Roblox on different platforms:
 
@@ -200,10 +180,9 @@ If you're on PC, Dx11 is best, if you're on Android, Vulkan is best, if you're o
 You can still use **DirectX** and **Vulkan** on PC, both are supported renderers.  
 **DirectX11** is enabled by default for most windows users, but **Vulkan** can be enabled manually or through certain flags for testing or compatibility. **Metal** and **Orbis** are exclusive to apple and playstation systems, so they can’t be used on PC.
 
-</details>
+---
 
-<details>
-  <summary><h3><strong>Debugging FFlags</strong></h3></summary>
+<h2>Debugging FFlags</h2>
 
 ```json
 {
@@ -220,10 +199,9 @@ You can still use **DirectX** and **Vulkan** on PC, both are supported renderers
 https://youtu.be/USzEqHQ_87g?si=7OKCsGp3DPAad-yF
 Made by DrPlaguestien
 
-</details>
+---
 
-<details>
-  <summary><h3><strong>Roblox Client Debug Menu Keybinds</strong></h3></summary>
+<h2>Roblox Client Debug Menu Keybinds</h2>
 
 | **Action**             | **Windows**              | **Mac**                   | **Mobile**                                    |
 |-------------------------|--------------------------|---------------------------|-----------------------------------------------|
@@ -235,10 +213,9 @@ Made by DrPlaguestien
 | *Physics stats*        | `Shift + F4`             | `Fn + Shift + F4`         | None                                          |
 | *Summary stats*        | `Shift + F5`             | `Fn + Shift + F5`         | None                                          |
 
-</details>
+---
 
-<details>
-  <summary><h3><strong>Common Misconceptions with FFlags and Bootstrappers</strong></h3></summary>
+<h2>Common Misconceptions with FFlags and Bootstrappers</h2>
 
 > 1. Fastflags can NOT reduce ping.
 > 2. Some fastflags can be abusive but they are NOT hacking tools, no fflag can give you better hitbox or allow you to fly.
