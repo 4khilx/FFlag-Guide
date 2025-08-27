@@ -526,6 +526,23 @@ Made by DrPlaguestien
 </details>
 
 <details>
+  <summary><h3><strong>Sites for finding fastflags</strong></h3></summary>
+  
+- [**FVariables**](https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/roblox/FVariables.txt)  
+- [**PC Desktop Client**](https://raw.githubusercontent.com/MaximumADHD/Roblox-FFlag-Tracker/main/PCDesktopClient.json)  
+- [**PC Client Bootstrapper**](https://raw.githubusercontent.com/MaximumADHD/Roblox-FFlag-Tracker/main/PCClientBootstrapper.json)
+
+</details>
+
+<details>
+  <summary><h3><strong>Best Discord Bots/Apps for fastflags</strong></h3></summary>
+
+- [**Scrooms Utility**](https://discord.gg/84jKZcdQ2B)
+- [**Flemish FFlags**](https://discord.gg/UHfwyxjeya)
+
+</details>
+
+<details>
   <summary><h3><strong>Fastflag Tips/Explanations</strong></h3></summary>
 
 > 1. Having overlays can actually harm FPS, so yes. `FFlagDebugDisplayFPS` can actually reduce FPS.
