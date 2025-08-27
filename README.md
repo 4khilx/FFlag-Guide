@@ -5,7 +5,7 @@
 </div>
 
 <details>
-  <summary><h3><strong>FFlag Basics</strong></h3></summary>
+  <summary><h2><strong>FFlag Basics</strong></h2></summary>
 
   <h2>What are fflags?</h2>
     <b>Roblox Fast Flags are configuration settings used internally by Roblox engineers to quickly enable or disable features and functionalities within the Roblox platform. These flags allow developers to test new features, make updates, and address issues without needing to deploy a full update to the platform.</b>
@@ -36,7 +36,7 @@ No, you cannot have your Roblox account banned or terminated from using fflags, 
 </details>
 
 <details>
-  <summary><h3><strong>Advanced FFlag Guide</strong></h3></summary>
+  <summary><h2><strong>Advanced FFlag Guide</strong></h2></summary>
 
 <h2>Quick Navigation</h2>
 
@@ -541,7 +541,7 @@ Made by DrPlaguestien
 </details>
 
 <details>
-  <summary><h3><strong>Sites for finding fastflags</strong></h3></summary>
+  <summary><h2><strong>Sites for finding fastflags</strong></h2></summary>
   
 - [**FVariables**](https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/roblox/FVariables.txt)  
 - [**PC Desktop Client**](https://raw.githubusercontent.com/MaximumADHD/Roblox-FFlag-Tracker/main/PCDesktopClient.json)  
@@ -550,7 +550,7 @@ Made by DrPlaguestien
 </details>
 
 <details>
-  <summary><h3><strong>Best Discord Bots/Apps for fastflags</strong></h3></summary>
+  <summary><h2><strong>Best Discord Bots/Apps for fastflags</strong></h2></summary>
 
 - [**Scrooms Utility**](https://discord.gg/84jKZcdQ2B)
 - [**Flemish FFlags**](https://discord.gg/UHfwyxjeya)
@@ -558,7 +558,7 @@ Made by DrPlaguestien
 </details>
 
 <details>
-  <summary><h3><strong>Fastflag Tips/Explanations</strong></h3></summary>
+  <summary><h2><strong>Fastflag Tips/Explanations</strong></h2></summary>
 
 > 1. Having overlays can actually harm FPS, so yes. `FFlagDebugDisplayFPS` can actually reduce FPS.
 > 2. Debug fastflags, usually have something to do with UI or quality. For example, `DFIntDebugFRMQualityLevelOverride` and `FFlagDebugAdornsDisabled`
@@ -583,6 +583,31 @@ Made by DrPlaguestien
 > 21. Reading dev forums are useful to learn, they can also correlate to fastflags. 
 > 22. You can find fastflags in the Roblox Dev Console Memory.
 > 23. Some fastflags have names which people falsely interpret, such as FIntTargetRefreshRate (this doesn't target refresh rate, it targets something else.), don't blindly assume stuff.
+
+</details>
+
+<details>
+  <summary><h2><strong>What are some good websites/Discord servers on FFlags?</strong></h2></summary>
+
+*Websites*
+> - https://github.com/susucat1/Tweak-Roblox-FFlags
+> - https://devforum.roblox.com/t/what-fflag-affects-roblox-client-performance-moved/2320663
+> - https://devforum.roblox.com/t/how-to-make-a-fastflagdynamic-fastflag-system/1061151
+> - https://devforum.roblox.com/t/what-is-bloxstrap-and-what-are-fflags/3238312
+> - https://devforum.roblox.com/t/how-could-i-improve-my-dynamic-fflag-system/1052476
+> - https://devforum.roblox.com/t/fast-flags-clientappsettingsjson-folder-locations-for-most-os-eg-windows-macos-android-and-ios/3180597
+> - https://github.com/bloxstraplabs/bloxstrap/wiki
+> - https://devforum.roblox.com/t/bloxstrap-an-open-source-feature-packed-alternative-bootstrapper-for-roblox/2217489
+
+*Discord Servers*
+> - https://discord.gg/8PSdkY5jNS (Stoof's Basement)
+> - https://discord.gg/vg4frFFyU6 (Flag Forge) **Best one out of all imo**
+> - https://discord.gg/2856wmV3R3 (Scrooms Lounge)
+> - https://discord.gg/tD2DDkvSbC (Roblox Fastflags)
+> - https://discord.gg/3UMyUKZXXJ (Froststrap Server)
+> - https://discord.gg/6a7D3nGpf3 (AppleBlox Server)
+> - https://discord.gg/nKjV3mGq6R (Bloxstrap Server)
+> - https://discord.com/invite/useful-bloxstrap-ff-s-1181234518120738928 (UBFF, aka Useful Bloxstrap FF's)
 
 </details>
 
